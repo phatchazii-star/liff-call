@@ -2,24 +2,23 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>คอลเจ้าหน้าที่</title>
-<script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<title>คอลวิดีโอเจ้าหน้าที่</title>
 </head>
-<body>
 
-<h3>กำลังเชื่อมต่อวิดีโอคอล...</h3>
+<body style="text-align:center; padding-top:60px;">
+
+<h2>📞 วิดีโอคอลเจ้าหน้าที่</h2>
+
+<button
+style="font-size:22px; padding:18px 40px; cursor:pointer;"
+onclick="callNow()">
+กดแล้วคอลเลย
+</button>
 
 <script>
-async function main() {
-  await liff.init({ liffId: "ใส่_LIFF_ID_ตรงนี้" });
-
-  // ชื่อห้องคอล
-  const room = "helpdesk001";
-
-  // เด้งไป Jitsi
-  location.href = "https://meet.jit.si/" + room;
+function callNow() {
+  window.location.href = "https://meet.google.com/zph-fjdn-kkf";
 }
-main();
 </script>
 
 </body>
